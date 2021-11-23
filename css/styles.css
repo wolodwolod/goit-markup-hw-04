@@ -323,7 +323,8 @@ nav {
   background-color: var(--primary-white-color);
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -366,7 +367,8 @@ nav {
 .client-link + .client-link {
   margin-left: 30px;
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -431,7 +433,8 @@ address {
 .f-social-link + .f-social-link {
   margin-left: 10px;
 }
-.f-social-link:hover {
+.f-social-link:hover,
+.f-social-link:focus {
   background-color: var(--accent-color);
 }
 /* Portfolio page styles */
@@ -506,7 +509,8 @@ address {
 
   background: var(--primary-white-color);
 }
-.portfolio-list-item:hover {
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
